@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+ 
+}
+
+/* Main container */
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  
+}
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+/* Main Menu */
+.mainmenu {
+  background-color: lightblue;
+  padding: 35px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+  
+}
+
+/* Orders List */
+.ordersList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Orders */
+.menu p {
+  margin: 0;
+  padding: 0;
+  color: #333; /* Dark text color for better readability */
+}
+
+.menu p:first-child {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+/* Order Quantity */
+.quantityprice {
+  display: flex;
+  align-items: center;
+}
+
+.quantityprice button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.quantityprice button:hover {
+  background-color: #0056b3;
+}
+
+.quantityprice p {
+  margin: 10;
+  font-size: 1.1em;
+  color: #333; /* Dark text color for better readability */
+}
+
+/* Total Price */
+.price {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #333; /* Dark text color for better readability */
+}
